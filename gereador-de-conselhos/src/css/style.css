@@ -1,0 +1,58 @@
+body {
+    font-size: 20px;
+    font-weight: 800;
+    background-color: var(--cor-de-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Manrope", sans-serif;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Cor-do-card);
+    border-radius: 10px;
+    padding: 20px;
+    width: 450px;
+}
+
+.card .title {
+    color: var(--botão-do-card-e-texto);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 7px;
+    margin-top: 30px;
+}
+
+.card .conselho {
+    color: var(--Cor-do-texto);
+    padding: 23px;
+    font-size: 23px;
+    text-align: center;
+    
+}
+
+
+
+.card .divisor-1 {
+    width: 100%;
+}
+
+.button-card {
+    background-color: var(--botão-do-card-e-texto);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    transform: translateY(85%);
+}
+
+.card .button-card:hover {
+    box-shadow: 0 5px 15px var(--botão-do-card-e-texto);
+    cursor: pointer;
+}
+
