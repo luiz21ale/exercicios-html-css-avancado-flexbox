@@ -1,0 +1,35 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    height: 100vh;
+}
+
+.lista-imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.lista-imagem .image-box {
+    position: relative;
+}
+
+.lista-imagem .autoria {
+    position: absolute;
+    bottom: 40px;
+    left: 20px ;
+    color: #ffffff;
+}
+
+.lista-imagem .autoria .titulo-imagem {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.lista-imagem .autoria .altor {
+    font-size: 17px;
+    font-weight: 300;
+}
